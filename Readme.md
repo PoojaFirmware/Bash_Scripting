@@ -38,10 +38,9 @@ Execute permission - chmod +x filename
 5. Usage
 
 # Path
-nano ~/.profile
-export PATH="$PATH:$HOME/Bash/scripts"
-source ~/.profile
-
+1. nano ~/.profile
+2. export PATH="$PATH:$HOME/Bash/scripts"
+3. source ~/.profile
 
 
 
