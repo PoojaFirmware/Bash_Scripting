@@ -36,6 +36,20 @@ echo "Please provide the following information."
 read -p "What is your first name?: " firstname
 read -p "What is your surname/family name?: " lastname
 
+PS3="What type of phone do you have?:"
+
+select phone in headset handheld; do
+       echo "you chose $phone"
+       break
+done
+
+PS3="What department do you work?:"
+
+select department in finance sales engineering "customer service"; do
+       echo "you chose $department"
+       break
+done
+
 # Ensure extension number is exactly 4 digits
 read -N 4 -p "What is your extension number (must be 4 digits)?: " ext
 echo  # Add an empty line after the input
