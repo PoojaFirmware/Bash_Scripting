@@ -8,3 +8,6 @@ node_modules/
 
 #Ignore all csv file
 .csv
+
+#Ignore all txt files
+.txt
